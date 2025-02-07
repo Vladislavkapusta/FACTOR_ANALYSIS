@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Расширенный факторный анализ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Расширенный факторный анализ</h1>
+        <textarea id="dataInput" placeholder="Введите данные в формате CSV (Период, Объем продаж, Выручка, Стоимость)"></textarea>
+        <h3>Ввод для примера - </h3>
+           <h4><br> Период,Объем продаж,Выручка,Стоимость
+            <br>Январь,100,5000,50
+            <br>Февраль,110,5200,47
+            <br>Март,120,5400,45
+            <br>Апрель,115,5300,46
+            <br>Май,130,5600,48</h4>
+        <button onclick="performFactorAnalysis()">Провести анализ</button>
+        <div class="output" id="output"></div>
+    </div>
+
+    <script src="./script.js">
+    </script>
+</body>
+</html>
